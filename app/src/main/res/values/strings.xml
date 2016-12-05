@@ -1,0 +1,10 @@
+<resources>
+    <string name="app_name">My App Portfolio</string>
+    <string name="my_nanodegree_apps">My Nanodegree Apps!</string>
+    <string name="hot_movie">hot movie</string>
+    <string name="stock_app">stock app</string>
+    <string name="xyz_reader">xyz reader</string>
+    <string name="news_app">news app</string>
+    <string name="start_app">"Start app : "</string>
+    <string name="graduation_project">graduation project</string>
+</resources>

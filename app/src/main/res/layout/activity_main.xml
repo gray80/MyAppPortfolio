@@ -1,0 +1,50 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/activity_main"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+
+    tools:context="com.example.myappportfolio.MainActivity">
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:layout_margin="@dimen/text_margin"
+        android:textSize="@dimen/text_size"
+        android:textColor="@color/DimGray"
+        android:text="@string/my_nanodegree_apps"/>
+
+    <Button
+        android:id="@+id/movie_bt"
+        style="@style/button"
+        android:text="@string/hot_movie"
+        android:onClick="click"/>
+
+    <Button
+        android:id="@+id/stock_bt"
+        style="@style/button"
+        android:text="@string/stock_app"
+        android:onClick="click"/>
+
+    <Button
+        android:id="@+id/reader_bt"
+        style="@style/button"
+        android:text="@string/xyz_reader"
+        android:onClick="click"/>
+
+    <Button
+        android:id="@+id/news_bt"
+        style="@style/button"
+        android:text="@string/news_app"
+        android:onClick="click"/>
+
+    <Button
+        android:id="@+id/project_bt"
+        style="@style/button"
+        android:text="@string/graduation_project"
+        android:onClick="click"/>
+</LinearLayout>
